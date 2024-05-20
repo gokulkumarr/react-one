@@ -1,0 +1,35 @@
+.header-container {
+  height: 80px;
+  background: #fff;
+  box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.15);
+  padding: 0 20px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container .header-left,
+.header-container .header-left img {
+  height: 100%;
+}
+
+.navItems {
+  display: flex;
+}
+
+.navItems li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.navItems li a {
+  text-decoration: none;
+  color: #a2a2a2;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s linear 0s;
+}
+
+.navItems li a:hover {
+  color: #434343;
+}
