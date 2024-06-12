@@ -1,0 +1,9 @@
+.res-card {
+    width: 100%;
+    flex-flow: wrap;
+    align-content: flex-start;
+}
+
+.res-card img{
+    height: 200px;
+}

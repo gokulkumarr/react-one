@@ -4,13 +4,9 @@ import './footer.css';
 const FooterComponent = () => {
     return (
         <footer className="footer-container">
-            Footer {title }
+            Footer
         </footer>
     )
 }
-
-const title = (
-    <button>Button</button>
-);
 
 export default FooterComponent;

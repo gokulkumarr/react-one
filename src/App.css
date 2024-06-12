@@ -1,7 +1,22 @@
-button {
-    color:#532097;
-    background: #FBD961;
-    border:1px solid #FBD961;
+.utility-container{
+    float: left;
+    width:100%;
+    display:block;
+}
+
+.utility-container button {
+    color:#FFF;
+    background: #f6c90e;
+    border:1px solid #f6c90e;
     border-radius: 4px;
     padding:8px;
+    transition: all 0.3s linear 0s;
+    font-size: 14px;
+    font-weight: 500;
 }
+
+.utility-container button:hover {
+    color:#f6c90e;
+    background: transparent;
+}
+
