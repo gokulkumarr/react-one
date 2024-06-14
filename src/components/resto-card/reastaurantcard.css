@@ -1,9 +1,31 @@
 .res-card {
     width: 100%;
-    flex-flow: wrap;
-    align-content: flex-start;
 }
 
 .res-card img{
     height: 200px;
+}
+
+.res-card .card-text {
+    font-size: 14px;
+    width:75%
+}
+
+.res-card .card-title label {
+    display:block;
+    font-size:12px;
+    margin-top:4px;
+    color:#7b7b7b;
+}
+.res-card .card-xtra-txt label{
+    font-size:12px;
+    padding:4px;
+}
+
+.res-card .card-xtra-txt label:last-child {
+    font-size:12px;
+    background:#15b466;
+    padding:2px 4px;
+    border-radius:4px;
+    color:#FFF;
 }

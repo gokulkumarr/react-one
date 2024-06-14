@@ -31,5 +31,16 @@
 }
 
 .navItems li a:hover {
-  color: #434343;
+  color: #44D187;
+}
+
+.login-Btn{
+  color: #fff;
+  background: #44d187;
+  border: 1px solid #44d187;
+  border-radius: 4px;
+  padding: 3px 6px;
+  transition: all 0.3s linear 0s;
+  font-size: 14px;
+  font-weight: 500;
 }

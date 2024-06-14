@@ -8,10 +8,10 @@ const SearchBar = (props) => {
         setSearchTxt('');
     }
     return (
-        <>
+        <div className="searchBar-container">
         <input type="search" placeholder="Enter your values" value={searchTxt} onChange={(e) => setSearchTxt(e.target.value)}/>
-        <button onClick={handleSearchClick}>Search</button>
-        </>
+        <button className="mx-2" onClick={handleSearchClick}>Search</button>
+        </div>
     );
 }
 

@@ -10,14 +10,17 @@ const RestaurantCard = (props) => {
       <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+cloudinaryImageId} className="card-img-top" alt="list" />
       
       <div className="card-body">
-        <h5 className="card-title">{name}</h5>
-
+        <h6 className="card-title">{name}
+        <label>{areaName}</label>
+        </h6>
+        <div className="card-xtra-txt">
         <label>{costForTwo}</label>
         <label className="float-end">{avgRating}</label>
-        <p className="card-text">
+        </div>
+        <p className="card-text d-inline-block text-truncate">
           {cuisines.join(', ')}
         </p>
-        <label>{areaName}</label>
+        
       </div>
     </div>
   );

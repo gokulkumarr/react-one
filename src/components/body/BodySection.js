@@ -49,16 +49,16 @@ const BodySection = () => {
     <h1>Loading...</h1>
   ) : (
     <main className="main-container container my-4">
-      <div className="utility-container">
+      <div className="utility-container mb-3">
       <SearchBar onChildClick ={handleSearchTextData}/>
+        <button className="filter-btn float-end mb-2 ms-2 d-block" onClick={handleClearFilters}>Clear Filters</button>
         <button className="filter-btn float-end mb-2 d-block" onClick={handleTopRated}>Top Rated</button>
-        <button className="filter-btn float-end mb-2 d-block" onClick={handleClearFilters}>Clear Filters</button>
       </div>
       <div className="row">
         {searchFilterArr.map((restaurant) => {
           return (
             <div
-              className="col-12 col-md-3 d-flex flex-row mb-3"
+              className="col-12 col-md-2 d-flex flex-row mb-3"
               key={restaurant.info.id}
             >
               <RestaurantCard resData={restaurant} />
