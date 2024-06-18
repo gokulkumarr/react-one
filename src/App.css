@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #FFF;
+  }
+  
 .utility-container {
   float: left;
   width: 100%;

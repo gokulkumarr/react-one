@@ -5,7 +5,7 @@ const RestaurantCard = (props) => {
     const {resData} = props;
     const {name, cloudinaryImageId, costForTwo, avgRating, cuisines, areaName} = resData?.info;
   return (
-    <div className="card res-card">
+    <div className="res-card">
         
       <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+cloudinaryImageId} className="card-img-top" alt="list" />
       

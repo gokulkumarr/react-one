@@ -1,14 +1,25 @@
+a.card{
+    text-decoration: none;
+    width: 100%;
+}
+
 .res-card {
     width: 100%;
 }
 
 .res-card img{
-    height: 200px;
+    height: 150px;
+    padding: 6px;
+    border-radius: 12px;
 }
 
 .res-card .card-text {
     font-size: 14px;
     width:75%
+}
+
+.res-card .card-title {
+    font-size: 14px;
 }
 
 .res-card .card-title label {
@@ -28,4 +39,6 @@
     padding:2px 4px;
     border-radius:4px;
     color:#FFF;
+    min-width: 18px;
+    text-align: center;
 }
